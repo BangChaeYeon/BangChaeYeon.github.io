@@ -21,9 +21,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: DEV 📝                          # the main title
+title: DEV BLOG                        # the main title
 
-tagline: 일단 쓰고 보자  # it will display as the sub-title
+tagline: 일단 쓰고 보자📝  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
@@ -34,8 +34,8 @@ url: 'https://bangchaeyeon.github.io'
 github:
   username: BangChaeYeon             # change to your github username
 
-#twitter:
-#  username: twitter_username            # change to your twitter username
+#twitter: 
+#  username:             # change to your twitter username
 
 social:
   # Change to your full name.
@@ -89,10 +89,10 @@ avatar: '/assets/img/profile.png'
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: disqus        # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
-    shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+    shortname: bangchaeyeon-github-io  # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
     repo:         # <gh-username>/<repo>
