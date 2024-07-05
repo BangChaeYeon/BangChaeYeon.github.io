@@ -27,19 +27,19 @@ Classic ASP 페이지는 파일 확장자가 .asp 이고 일반적으로 VBScrip
 {: .prompt-info }
 
 1. 시작에서 Windows 기능 켜기/끄기 검색
-  <br/><img src="../resource/img/20240705_asp_devEnv_1.png" width="600"/>
+  <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_1.png" width="600"/>
 2. Windows 기능 켜기/끄기에서 ASP 관련 기능 활성화
-   <br/><img src="../resource/img/20240705_asp_devEnv_2.png" width="400"/>
+   <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_2.png" width="400"/>
   > [활성화 필요 항목]
   > - 인터넷 정보 서비스 > World Wide Web 서비스 > 보안, 상태 및 진단, 성능 기능
   > - 인터넷 정보 서비스 > World Wide Web 서비스 > 응용 프로그램 개발 기능 > ASP, ISAPI 확장
   > - 인터넷 정보 서비스 > 웹 관리 도구 > IIS 관리 콘솔
 3. 시작에서 IIS(인터넷 정보 서비스) 관리자 검색
-  <br/><img src="../resource/img/20240705_asp_devEnv_3.png" width="600"/>
+  <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_3.png" width="600"/>
 4. IIS 관리자 페이지에서 ASP 항목 선택
-  <br/><img src="../resource/img/20240705_asp_devEnv_4.png" width="600"/>
+  <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_4.png" width="600"/>
 5. 컴파일 디버깅 속성 활성화
-  <br/><img src="../resource/img/20240705_asp_devEnv_5.png" width="600"/>
+  <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_5.png" width="600"/>
   > [활성화 필요 항목]
   > - 브라우저에 오류 전송: True
   > - 서버 쪽 디버깅 사용: True
@@ -48,10 +48,10 @@ Classic ASP 페이지는 파일 확장자가 .asp 이고 일반적으로 VBScrip
   > 업로드 경로는 Default Web Site > 모듈 우클릭 > 기본 설정에서 변경할 수 있습니다.
   {: .prompt-tip }
 
-  <br/><img src="../resource/img/20240705_asp_devEnv_6.png" width="600"/>
-  <br/><img src="../resource/img/20240705_asp_devEnv_7.png" width="600"/>
+  <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_6.png" width="600"/>
+  <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_7.png" width="600"/>
 7. IIS 우측의 다시 시작 클릭
-   <br/><img src="../resource/img/20240705_asp_devEnv_8.png" width="600"/>
+   <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_8.png" width="600"/>
 8. 브라우저에 localhost/`asp 파일명`를 입력하여 확인
 ---
 

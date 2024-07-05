@@ -1,5 +1,5 @@
 ---
-title: 기술 면접 대비_1_Java
+title: 기술 면접 대비 - Java편
 author: BCY
 date: 2024-07-05 20:18:37 +0900
 categories: [interview, java]
