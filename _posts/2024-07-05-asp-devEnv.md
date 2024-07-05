@@ -21,7 +21,6 @@ Classic ASP는 1998년 Microsoft의 첫 번째 서버 사이드 스크립팅 언
 
 Classic ASP 페이지는 파일 확장자가 .asp 이고 일반적으로 VBScript로 작성됩니다.
 
----
 ## Windows 개발 환경 구성
 > OS: Windows 11
 {: .prompt-info }
@@ -34,6 +33,7 @@ Classic ASP 페이지는 파일 확장자가 .asp 이고 일반적으로 VBScrip
   > - 인터넷 정보 서비스 > World Wide Web 서비스 > 보안, 상태 및 진단, 성능 기능
   > - 인터넷 정보 서비스 > World Wide Web 서비스 > 응용 프로그램 개발 기능 > ASP, ISAPI 확장
   > - 인터넷 정보 서비스 > 웹 관리 도구 > IIS 관리 콘솔
+
 3. 시작에서 IIS(인터넷 정보 서비스) 관리자 검색
   <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_3.png" width="600"/>
 4. IIS 관리자 페이지에서 ASP 항목 선택
@@ -44,16 +44,17 @@ Classic ASP 페이지는 파일 확장자가 .asp 이고 일반적으로 VBScrip
   > - 브라우저에 오류 전송: True
   > - 서버 쪽 디버깅 사용: True
   > - 클라이언트 쪽 디버깅 사용: True
+
 6. ASP 파일을 `C:\inetpub\wwwroot` 경로에 업로드
   > 업로드 경로는 Default Web Site > 모듈 우클릭 > 기본 설정에서 변경할 수 있습니다.
+  > <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_6.png" width="600"/>
+  > <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_7.png" width="600"/>
   {: .prompt-tip }
-  <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_6.png" width="600"/>
-  <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_7.png" width="600"/>
+
 7. IIS 우측의 다시 시작 클릭
    <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_8.png" width="600"/>
 8. 브라우저에 localhost/`asp 파일명`를 입력하여 확인
----
 
-> 참고
+## 참고
 > * https://www.w3schools.com/asp/default.ASP
 > * https://gogoonbuntu.tistory.com/99
