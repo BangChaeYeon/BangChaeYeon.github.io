@@ -47,7 +47,6 @@ Classic ASP 페이지는 파일 확장자가 .asp 이고 일반적으로 VBScrip
 6. ASP 파일을 `C:\inetpub\wwwroot` 경로에 업로드
   > 업로드 경로는 Default Web Site > 모듈 우클릭 > 기본 설정에서 변경할 수 있습니다.
   {: .prompt-tip }
-
   <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_6.png" width="600"/>
   <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_7.png" width="600"/>
 7. IIS 우측의 다시 시작 클릭
