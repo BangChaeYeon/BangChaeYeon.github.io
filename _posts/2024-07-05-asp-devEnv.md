@@ -44,14 +44,17 @@ Classic ASP 페이지는 파일 확장자가 .asp 이고 일반적으로 VBScrip
   > - 서버 쪽 디버깅 사용: True
   > - 클라이언트 쪽 디버깅 사용: True
 6. ASP 파일을 `C:\inetpub\wwwroot` 경로에 업로드
-  > 업로드 경로는 Default Web Site > 모듈 우클릭 > 기본 설정에서 변경할 수 있습니다.
+  > [ASP 경로 변경하는 방법 참고](#asp-경로-변경하는-방법)
   {: .prompt-tip }
-  <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_6.png" width="600"/>
-  <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_7.png" width="600"/>
 7. IIS 우측의 다시 시작 클릭
    <br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_8.png" width="600"/>
 8. 브라우저에 localhost/`asp 파일명`를 입력하여 확인
 
+## ASP 경로 변경하는 방법
+업로드 경로는 Default Web Site > 모듈 우클릭 > 기본 설정에서 변경할 수 있습니다.
+<br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_6.png" width="600"/>
+<br/><img src="{{site.url}}/assets/img/blog/20240705/20240705_asp_devEnv_7.png" width="600"/>
+
 ## 참고
-> * https://www.w3schools.com/asp/default.ASP
-> * https://gogoonbuntu.tistory.com/99
+> * [W3Schools](https://www.w3schools.com/asp/default.ASP)
+> * [Tistory - Classic ASP 개발환경 세팅 (include, import, 디버깅)](https://gogoonbuntu.tistory.com/99)
