@@ -21,8 +21,11 @@ Classic ASP는 Object와 Object 이외의 값을 변수에 대입하는 방법�
 
 #### Object 값 대입의 경우
 > Set foo = Server.CreateObject("bar")
+
+
 #### Object 이외의 값 대입의 경우
 > foo = "bar"
+
 
 > 선언과 대입을 동시에 할 수 있습니다.
 >
@@ -31,13 +34,12 @@ Classic ASP는 Object와 Object 이외의 값을 변수에 대입하는 방법�
 
 ## HTTP Request
 Post로 HTTP Request를 요청하는 방법입니다.
-
-<br/><img src="{{site.url}}/assets/img/blog/20240707/20240707_asp_devTip_1.png" width="600"/>
+<img src="{{site.url}}/assets/img/blog/20240707/20240707_asp_devTip_1.png" width="600"/>
 
 ## QueryString Parsing
 QueryString 데이터를 Java의 Map처럼 key, value 형태로 파싱하는 방법입니다.
-<br/><img src="{{site.url}}/assets/img/blog/20240707/20240707_asp_devTip_2.png" width="600"/>
+<img src="{{site.url}}/assets/img/blog/20240707/20240707_asp_devTip_2.png" width="600"/>
 
 ## Execute exe
 exe 파일을 실행하고 결과 값을 받아오는 방법입니다.
-<br/><img src="{{site.url}}/assets/img/blog/20240707/20240707_asp_devTip_3.png" width="600"/>
+<img src="{{site.url}}/assets/img/blog/20240707/20240707_asp_devTip_3.png" width="600"/>
