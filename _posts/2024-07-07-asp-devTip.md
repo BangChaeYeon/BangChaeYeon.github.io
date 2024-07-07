@@ -1,7 +1,7 @@
 ---
 title: Classic ASP 개발 가이드
 author: BCY
-date: 2024-07-07 12:29:27 +0900
+date: 2024-07-07 12:37:27 +0900
 categories: [asp, classic asp]
 tags: [asp]
 ---
