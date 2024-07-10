@@ -1,13 +1,13 @@
 ---
 title: 기술 면접 대비 - Java편
 author: BCY
-date: 2024-07-05 20:18:37 +0900
+date: 2024-07-10 20:40:00 +0900
 categories: [interview, java]
 tags: [interview]
 ---
 ## 개요
 이 글은 기술 면접을 대비하여 예상 질문 리스트를 정리하고자 작성했습니다.
-내용은 계속 추가 될 예정입니다.
+해당 내용은 Java편으로 계속 추가 될 예정입니다.
 
 <details>
   <summary>1. OOP란 무엇인가?</summary>
@@ -637,4 +637,29 @@ tags: [interview]
 			</ul>
 		</li>
 	</ul>
+</details>
+
+<details>
+  <summary>36. DBCP란 무엇인가?</summary>
+  <ul>
+    <li>DataBase Connection Pool 의 약자로 DB와 커넥션을 맺고 있는 객체를 관리하는 역할</li>
+    <li>DBCP의 특징
+      <ul>
+        <li>웹 컨테이너(WAS)가 실행되면서 connection 객체를 미리 pool에 생성</li>
+        <li>HTTP 요청에 따라 pool에서 connection객체를 가져다 쓰고 반환</li>
+        <li>이와 같은 방식으로 물리적인 데이터베이스 connection(연결) 부하를 줄이고 연결 관리</li>
+        <li>pool에 미리 connection이 생성되어 있기 때문에 connection을 생성하는 데 드는 요청마다 연결 시간이 소비되지 않음</li>
+        <li>커넥션을 계속해서 재사용하기 때문에 생성되는 커넥션 수를 제한적으로 설정함</li>
+      </ul>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary>37. Connection Pool을 사용하는 이유는 무엇인가?</summary>
+  <ul>
+    <li>자바에서 DB에 직접 연결해서 처리하는 경우(JDBC) 드라이버(Driver)를 로드하고 커넥션(connection) 객체를 받아야함</li>
+    <li>그러면 매번 사용자가 요청을 할 때마다 드라이버를 로드하고 커넥션 객체를 생성하여 연결하고 종료하기 때문에 매우 비효율적임 </li>
+    <li>이런 문제를 해결하기 위해서 커넥션풀(DBCP)를 사용</li>
+  </ul>
 </details>
