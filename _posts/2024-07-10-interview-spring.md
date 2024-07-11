@@ -114,7 +114,7 @@ tags: [interview]
 	<summary>9. JSTL은 무엇이고 ,왜 사용하는가?</summary>
 	<ul>
 		<li>JSP 표준 태그 라이브러리의 약어로써, 자신만의 태그를 추가할 수 있는 기능을 제공함</li>
-		<li>주로 JSTL의 core에서 c를 사용하여 <c:if> <c:forEach> 등으로 사용함</li>
+		<li>주로 JSTL의 core에서 c를 사용하여 `c:if` `c:forEach` 등으로 사용함</li>
 	</ul>
 </details>
 
@@ -208,7 +208,6 @@ tags: [interview]
 				</li>
 			</ul>
 		</li>
-	</ul>
 		<li>Configuration
 			<ul>
 				<li>@Configuration 사용, @Bean 정의
