@@ -1,7 +1,7 @@
 ---
 title: 기술 면접 대비 - Spring framework편
 author: BCY
-date: 2024-07-10 20:42:28 +0900
+date: 2024-07-11 20:58:28 +0900
 categories: [interview, spring]
 tags: [interview]
 ---
